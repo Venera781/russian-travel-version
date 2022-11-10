@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width: 1184px;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+/* ДЛЯ ( от 1024px до 1279px) */
+@media screen and (max-width: 1279px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+/* ДЛЯ (от 768px до 1023px) */
+@media screen and (max-width: 1023px) {
+    .footer {
+        max-width: 720px;
+    }
+}
+
+/* ДЛЯ 425px до 767px*/
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 186px;
+        margin-left: 16px;
+    }
+}

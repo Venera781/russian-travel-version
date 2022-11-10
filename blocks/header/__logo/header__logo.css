@@ -1,0 +1,19 @@
+.header__logo {
+    display: flex;
+    position: relative;
+    width: 176px;
+    height: 52px;
+    left: 0;
+    bottom: 0;
+    background-image: url(../../../images/header-logo.svg);
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+/* ДЛЯ 375px до 424px*/
+@media (max-width: 424px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

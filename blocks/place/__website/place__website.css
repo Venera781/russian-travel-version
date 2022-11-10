@@ -1,0 +1,33 @@
+.place__website {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+}
+
+/* ДЛЯ 425px до 767px*/
+@media (max-width: 767px) {
+    .place__website {
+        width: calc(100% - 40px * 2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ДЛЯ 375px до 424px*/
+@media (max-width: 424px) {
+    .place__website {
+        max-width: calc(100% - 20px * 2);
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+/* ДЛЯ 320px до 375px*/
+@media (max-width: 374px) {
+    .place__website {
+        max-width: calc(100% - 16px * 2);
+        margin-left: 16px;
+    }
+}

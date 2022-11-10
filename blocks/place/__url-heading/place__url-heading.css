@@ -1,0 +1,11 @@
+.place__url-heading {
+    width: 100%;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #AAA;
+    margin-top: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

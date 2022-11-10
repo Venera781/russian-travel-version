@@ -1,0 +1,25 @@
+.place__image {
+    width: 100%;
+}
+
+/* ДЛЯ 425px до 767px*/
+@media (max-width: 767px) {
+    .place__image {
+        width: calc(100% - 40px * 2);
+        justify-self: center;
+    }
+}
+
+/* ДЛЯ 375px до 424px*/
+@media (max-width: 424px) {
+    .place__image {
+        width: calc(100% - 20px * 2);
+    }
+}
+
+/* ДЛЯ 320px до 375px*/
+@media (max-width: 374px) {
+    .place__image {
+        width: 100%;
+    }
+}
